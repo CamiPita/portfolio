@@ -55,39 +55,38 @@ body {
     border-radius: 250px;
     margin: auto;
     display: block;
-   position: relative;
-   top: 0px;
-   left:auto ;
+    position: relative;
+    top: 0px;
+    left: auto;
 }
 
 
-.stack {
+#stack {
     background: rgb(125, 7, 7);
     background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
 
-    font-size: 24px;
+}
+#stack h2{
     color: white;
-    font-weight: bold;
+    font-size: 25px;
 }
-.stack i {
-    font-weight: 400;
-    color: #6a6a6a;
-    font-size: 60px;
-}
-.fa-brands {
-    font-weight: 400;
-}
-#sobre-mi h3{
-    color: #282828;
+
+
+
+
+#sobre-mi h3 {
+    color: gray;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .cajas {
-    display: block;
+    
     background-color: white;
-    border-radius: 10px;
-    display: inline-block;
+    border-radius: 5px;
+   margin: 21px ;
+  
+font-size: 30px;
 }
 
 .cv {
