@@ -9,6 +9,15 @@ body {
 
 }
 
+.depc {
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px;
+    height: 100px !important;
+    display: inline !important;
+
+}
+
+
 #proyectos {
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
@@ -52,7 +61,7 @@ body {
 
 #sobre-mi img {
     height: 300px;
-    border-radius: 250px;
+    border-radius: 250px !important;
     margin: auto;
     display: block;
     position: relative;
@@ -66,11 +75,11 @@ body {
     background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
 
 }
-#stack h2{
+
+#stack h2 {
     color: white;
     font-size: 25px;
 }
-
 
 
 
@@ -80,14 +89,27 @@ body {
     font-weight: 400;
 }
 
+#sobre-mi h4 {
+    color: #370a6d;
+    font-size: 25px;
+    font-weight: 400;
+}
+
 .cajas {
-    
+
     background-color: white;
     border-radius: 5px;
-   margin: 21px ;
-  
-font-size: 30px;
+    margin: 21px;
+    font-size: 30px;
 }
+
+.fa-brands,
+.fa-solid {
+    color: gray;
+    font-size: 50px;
+
+}
+
 
 .cv {
     background-color: #e20000;
@@ -180,6 +202,9 @@ p {
     background-color: #370a6d;
 }
 
+.fa-whatsapp {
+    color: white !important;
+}
 
 .whatsapp {
     position: fixed;
