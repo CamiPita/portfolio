@@ -10,7 +10,7 @@ body {
 }
 
 .depc {
-    margin: 0px 0px 0px 0px !important;
+    margin: 30px 30px 30px 30px !important;
     padding: 0px;
     height: 100px !important;
     display: inline !important;
@@ -95,6 +95,21 @@ body {
     font-weight: 400;
 }
 
+#sobre-mi h5 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+#sobre-mi h6{
+    font-size: 17px;
+    color: #370a6d;
+}
+#sobre-mi p {
+    display: block;
+}
+
 .cajas {
 
     background-color: white;
@@ -103,12 +118,35 @@ body {
     font-size: 30px;
 }
 
+.fa-hospital,
+.fa-store {
+    color: gray;
+    background-color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.fa-hospital:hover,
+.fa-store:hover {
+    color: red;
+}
+.fa-bag-shopping, .fa-building-columns {
+ 
+    font-size: 30px;
+    color: #6A6A6A;
+    margin: 10px;
+    padding: 5px 5px;
+
+}
+
 .fa-brands,
 .fa-solid {
     color: gray;
     font-size: 50px;
 
 }
+
 .idiomas {
     list-style-type: none;
 }
