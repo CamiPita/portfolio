@@ -102,10 +102,11 @@ body {
 }
 
 
-#sobre-mi h6{
+#sobre-mi h6 {
     font-size: 17px;
     color: #370a6d;
 }
+
 #sobre-mi p {
     display: block;
 }
@@ -118,6 +119,11 @@ body {
     font-size: 30px;
 }
 
+.gustos {
+    font-size: 16px;
+    font-weight: 600;
+    
+}
 .fa-hospital,
 .fa-store {
     color: gray;
@@ -131,14 +137,25 @@ body {
 .fa-store:hover {
     color: red;
 }
-.fa-bag-shopping, .fa-building-columns {
- 
-    font-size: 30px;
+
+.fa-bag-shopping,
+.fa-building-columns {
+
+    font-size: 20px;
     color: #6A6A6A;
     margin: 10px;
     padding: 5px 5px;
 
 }
+
+.fa-bag-shopping:hover {
+    color: green;
+}
+
+.fa-building-columns:hover {
+    color: black;
+}
+
 
 .fa-brands,
 .fa-solid {
@@ -146,10 +163,16 @@ body {
     font-size: 50px;
 
 }
-
-.idiomas {
-    list-style-type: none;
+.fa-camera, .fa-comments {
+    font-size: 40px;
+    color: white;
+    background-color: #370a6d;
+    display: inline;
+    border:solid 70px #370a6d;
+    border-radius: 20px;
+   
 }
+
 
 
 .cv {
