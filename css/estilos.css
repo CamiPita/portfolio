@@ -110,6 +110,11 @@ body {
 #sobre-mi p {
     display: block;
 }
+#hobbies{
+    background-color: #EEE;
+    margin-top: 50px;
+    padding: 60px;
+}
 
 .cajas {
 
@@ -122,7 +127,15 @@ body {
 .gustos {
     font-size: 16px;
     font-weight: 600;
-    
+    text-align: left;
+}
+.fa-camera, .fa-comments{
+    color: white !important;
+    background-color: #370a6d;
+    font-size: 80px !important;
+    border: solid 60px #370a6d;
+    border-radius: 25px;
+
 }
 .fa-hospital,
 .fa-store {
@@ -163,15 +176,8 @@ body {
     font-size: 50px;
 
 }
-.fa-camera, .fa-comments {
-    font-size: 40px;
-    color: white;
-    background-color: #370a6d;
-    display: inline;
-    border:solid 70px #370a6d;
-    border-radius: 20px;
-   
-}
+
+
 
 
 
@@ -362,10 +368,12 @@ footer .fa-github {
     /* Para mobile */
     #inicio,
     #contacto {
+
         background-size: cover;
     }
 
     #proyectos {
-        background-size: contain;
+        background-size: cover;
     }
+    
 }
