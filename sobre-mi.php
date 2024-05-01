@@ -1,3 +1,6 @@
+<?php
+    $pg="sobre-mi";
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -16,35 +19,7 @@
 
 <body id="sobre-mi" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link " href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  active" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="cv">
-                        <a href="">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
+        <?php include_once "menu.php"; ?>
 
     </header>
 
@@ -58,7 +33,7 @@
                         sobre tecnologia y en el cual me fui especializando día a día,en el área de Programación Full
                         Stack. </p>
                     <div class="col-6 py-5">
-                        <a href="contacto.html" class="cv px-4">Enviar mensaje</a>
+                        <a href="contacto.php" class="cv px-4">Enviar mensaje</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-5 pb-5">
@@ -265,12 +240,12 @@
         <section id="hobbies">
             <div class="container ">
                 <div class="row pt-5 ">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <div class="row border shadow ">
-                            <div class="col-4">
+                            <div class="col-12 col-sm-4">
                                 <i class="fa-solid fa-camera"></i>
                             </div>
-                            <div class="col-8 py-5 text-left">
+                            <div class="col-12 col-sm-8 py-5 text-left">
                                 <h5 class="ps-3">IDIOMAS</h5>
                                 <ul>
                                     <li>Español-Nativo</li>
@@ -279,12 +254,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <div class="row border shadow">
-                            <div class="col-4">
+                            <div class="col-12 col-sm-4">
                                 <i class="fa-regular fa-comments"></i>
                             </div>
-                            <div class="col-8 py-5 text-left">
+                            <div class="col-12 col-sm-8 py-5 text-left">
                                 <h5 class="ps-3">HOBBIES</h5>
                                 <ul>
                                     <li>Fotografía</li>
