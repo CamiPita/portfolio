@@ -26,7 +26,7 @@ h1 {
     color: #e20000;
 }
 
-h3 {
+#proyectos h3 {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 400px;
@@ -40,6 +40,7 @@ h3 {
 p {
     color: #6a6a66;
 }
+
 
 /* Edición de Inicio */
 
