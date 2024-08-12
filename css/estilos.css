@@ -41,6 +41,45 @@ p {
     color: #6a6a66;
 }
 
+/*Comienza la edición de sobre-mi */
+
+
+
+.tecnologia {
+    background-color: white;
+    text-align: center;
+    margin: 0px 0px 24px;
+
+}
+
+#sobre-mi h3 {
+    color:#6a6a66;
+    font-size: 14px;
+    margin: 0px 0px 8px;
+    padding: 48px 0px 4px;
+
+}
+
+.fa-laravel,
+.fa-gears,
+.fa-js,
+.fa-php,
+.fa-html5,
+.fa-bootstrap,
+.fa-css3-alt,
+.fa-git,
+.fa-database,
+.fa-wallet,
+.fa-linux,
+.fa-react,
+.fa-aws,
+.fa-server,
+.fa-paypal {
+    font-size: 60px;
+    color: #6a6a66;
+
+}
+
 
 /* Edición de Inicio */
 
@@ -187,16 +226,16 @@ footer .fa-linkedin {
 @media (max-width:750px) {
 
 
-    #proyectos{
+    #proyectos {
         background-size: contain;
         background-repeat: no-repeat;
     }
-   #inicio span {
-    color: #e20000;
-    border: 1px solid red;
-    font-size: 10px;
-    font-weight: 600px;
-   }
-   
+
+    #inicio span {
+        color: #e20000;
+        border: 1px solid red;
+        font-size: 10px;
+        font-weight: 600px;
+    }
+
 }
- 
