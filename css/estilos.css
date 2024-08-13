@@ -43,17 +43,46 @@ p {
 
 /*Comienza la edición de sobre-mi */
 
+#intro {
+    padding-bottom: 50px;
+}
 
+#intro img {
+    border-radius: 600px;
+    height: 300px;
+}
+
+#sobre-mi h2 {
+    color: white;
+    font-size: 24px;
+    padding: 50px 0px;
+}
+
+#stack section {
+    display: block;
+    unicode-bidi: isolate;
+
+}
+
+#stack {
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+    ;
+}
 
 .tecnologia {
     background-color: white;
     text-align: center;
     margin: 0px 0px 24px;
+    border: #eeeeee 1px solid;
+    border-radius: 10px;
+    margin: 0px 0px 24px;
+    height: 200px;
+
 
 }
 
 #sobre-mi h3 {
-    color:#6a6a66;
+    color: #6a6a66;
     font-size: 14px;
     margin: 0px 0px 8px;
     padding: 48px 0px 4px;
@@ -78,8 +107,36 @@ p {
     font-size: 60px;
     color: #6a6a66;
 
+
 }
 
+#experiencia h2,
+#academia h2 , #cursos h2 {
+    color: #370a6d;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.fa-hospital,
+.fa-shop,
+.fa-building-columns,
+.fa-school {
+    color: black;
+    font-size: 60px;
+}
+
+.fa-hospital:hover,
+.fa-shop:hover {
+    color: red;
+}
+
+.experiencia {
+    color: #6a6a66;
+}
+
+.experiencia h5 {
+    color: #370a6d;
+}
 
 /* Edición de Inicio */
 
