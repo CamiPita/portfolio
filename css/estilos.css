@@ -110,11 +110,23 @@ p {
 
 }
 
+.fa-camera,
+.fa-comments {
+    color: blue;
+    font-size: 80px;
+}
+
 #experiencia h2,
-#academia h2 , #cursos h2 {
+#academia h2,
+#cursos h2 {
     color: #370a6d;
     font-weight: 400;
     font-size: 24px;
+}
+
+#hobbies h4 {
+    font-size: 16px;
+
 }
 
 .fa-hospital,
@@ -132,11 +144,57 @@ p {
 
 .experiencia {
     color: #6a6a66;
+    
 }
 
 .experiencia h5 {
     color: #370a6d;
 }
+
+.card-idioma {
+    background-color: white;
+    padding: 0px 20px 0px 0px;
+    margin: 0px 0px;
+    border-radius: 10px;
+
+
+}
+
+.card {
+    background-color: #370a6d;
+    border-radius: 15px;
+}
+
+#idiomas {
+    background-color: #eee;
+   
+
+}
+
+#idiomas h2 {
+    font-size: 16px;
+    color: #282828;
+    padding: 50px 0px 0px 0px;
+}
+
+#idiomas ul {
+    padding: 0px 0px 50px 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+
+#idiomas .fa-camera,
+.fa-comments {
+    font-size: 80px;
+    color: white;
+    margin: auto;
+}
+
+
+
+
+
 
 /* Edición de Inicio */
 
