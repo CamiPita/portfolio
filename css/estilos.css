@@ -351,6 +351,10 @@ footer .fa-linkedin {
         border: 1px solid red;
         font-size: 10px;
         font-weight: 600px;
+        
+    }
+    #inicio footer {
+        padding-bottom: 0px !important;
     }
 
 }
