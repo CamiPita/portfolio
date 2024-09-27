@@ -28,7 +28,7 @@ if ($_POST) {
     $cabeceras .= 'From: contacto@camilapita.com.ar' . "\r\n";
 
     //Enviarlo
-    //mail ($para,$titulo, $cuerpo, $cabeceras);
+    //mail ($para,$titulo, $cuerpo, $cabeceras); esto esta comentado porque necesitamos un servidor de correo,si tenemos un hosting si. Cuando se envia correctamente ,nos redirecciona a confirmacion envio.
     header("Location:confirmacion-envio.php");
 }
 
