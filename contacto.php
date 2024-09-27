@@ -25,7 +25,7 @@ if ($_POST) {
 
     //Cabeceras adicionales
     $cabeceras .= 'To: caamipita@hotmail.com' . "\r\n";
-    $cabeceras .= 'From: contacto@camilapita.com.ar' . "\r\n";
+    $cabeceras .= 'From: contacto@camilapita.com.ar' . "\r\n"; //suponiendo que mi dominio se llame asi.
 
     //Enviarlo
     //mail ($para,$titulo, $cuerpo, $cabeceras); esto esta comentado porque necesitamos un servidor de correo,si tenemos un hosting si. Cuando se envia correctamente ,nos redirecciona a confirmacion envio.
